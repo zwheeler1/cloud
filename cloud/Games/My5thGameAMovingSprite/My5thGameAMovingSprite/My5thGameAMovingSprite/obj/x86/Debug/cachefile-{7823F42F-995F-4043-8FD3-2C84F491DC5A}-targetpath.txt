@@ -1,0 +1,5 @@
+Content\Images\image1.xnb
+Content\Images\Background.xnb
+Content\Images\SquareGuy.xnb
+Content\Images\WizardSquare.xnb
+Content\Arial.xnb

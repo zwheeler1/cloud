@@ -1,0 +1,40 @@
+﻿body 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+
+.FieldLabels
+{
+	font-size: 10px;
+	font-weight: bold;
+	text-align: left;
+}
+
+.ModuleSectionFont
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #1E385E;
+  font-weight: bold;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #C0C294;
+}
+.FooterStyle
+{
+    background-color: #a33;
+    color: White;
+    text-align: right;
+}
+.HeaderStyle
+{
+    background-color: #8B8FC6;
+    text-align: right;
+}
+
+.gvAlternatingRowStyle
+{
+	background-color: #8B8FC6;
+}
+

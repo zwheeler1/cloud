@@ -1,0 +1,11 @@
+C:\cloud\cloud\Games\MyFourthGameAddingSound\MyFourthGameAddingSound\MyFourthGameAddingSound\bin\x86\Debug\Content\Sounds\cow22.xnb
+C:\cloud\cloud\Games\MyFourthGameAddingSound\MyFourthGameAddingSound\MyFourthGameAddingSound\bin\x86\Debug\Content\Sounds\dog_bark4.xnb
+C:\cloud\cloud\Games\MyFourthGameAddingSound\MyFourthGameAddingSound\MyFourthGameAddingSound\bin\x86\Debug\Content\Sounds\pig_squeal2.xnb
+C:\cloud\cloud\Games\MyFourthGameAddingSound\MyFourthGameAddingSound\MyFourthGameAddingSound\bin\x86\Debug\Content\Sounds\GameSounds.xgs
+C:\cloud\cloud\Games\MyFourthGameAddingSound\MyFourthGameAddingSound\MyFourthGameAddingSound\bin\x86\Debug\Content\Sounds\Wave Bank.xwb
+C:\cloud\cloud\Games\MyFourthGameAddingSound\MyFourthGameAddingSound\MyFourthGameAddingSound\bin\x86\Debug\Content\Sounds\Sound Bank.xsb
+C:\cloud\cloud\Games\MyFourthGameAddingSound\MyFourthGameAddingSound\MyFourthGameAddingSound\bin\x86\Debug\MyFourthGameAddingSound.exe
+C:\cloud\cloud\Games\MyFourthGameAddingSound\MyFourthGameAddingSound\MyFourthGameAddingSound\bin\x86\Debug\MyFourthGameAddingSound.pdb
+C:\cloud\cloud\Games\MyFourthGameAddingSound\MyFourthGameAddingSound\MyFourthGameAddingSound\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\cloud\cloud\Games\MyFourthGameAddingSound\MyFourthGameAddingSound\MyFourthGameAddingSound\obj\x86\Debug\MyFourthGameAddingSound.exe
+C:\cloud\cloud\Games\MyFourthGameAddingSound\MyFourthGameAddingSound\MyFourthGameAddingSound\obj\x86\Debug\MyFourthGameAddingSound.pdb

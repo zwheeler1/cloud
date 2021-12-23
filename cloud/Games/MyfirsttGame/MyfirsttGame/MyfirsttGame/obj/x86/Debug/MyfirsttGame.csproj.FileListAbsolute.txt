@@ -1,0 +1,7 @@
+C:\cloud\cloud\Games\MyfirsttGame\MyfirsttGame\MyfirsttGame\bin\x86\Debug\MyfirsttGame.exe
+C:\cloud\cloud\Games\MyfirsttGame\MyfirsttGame\MyfirsttGame\bin\x86\Debug\MyfirsttGame.pdb
+C:\cloud\cloud\Games\MyfirsttGame\MyfirsttGame\MyfirsttGame\obj\x86\Debug\MyfirsttGame.csprojResolveAssemblyReference.cache
+C:\cloud\cloud\Games\MyfirsttGame\MyfirsttGame\MyfirsttGame\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\cloud\cloud\Games\MyfirsttGame\MyfirsttGame\MyfirsttGame\obj\x86\Debug\MyfirsttGame.exe
+C:\cloud\cloud\Games\MyfirsttGame\MyfirsttGame\MyfirsttGame\obj\x86\Debug\MyfirsttGame.pdb
+C:\cloud\cloud\Games\MyfirsttGame\MyfirsttGame\MyfirsttGame\bin\x86\Debug\Content\image1.xnb

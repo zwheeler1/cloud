@@ -1,0 +1,8 @@
+C:\cloud\cloud\Games\My5thGameAMovingSprite\My5thGameAMovingSprite\My5thGameAMovingSprite\obj\x86\Debug\My5thGameAMovingSprite.csprojResolveAssemblyReference.cache
+C:\cloud\cloud\Games\My5thGameAMovingSprite\My5thGameAMovingSprite\My5thGameAMovingSprite\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\cloud\cloud\Games\My5thGameAMovingSprite\My5thGameAMovingSprite\My5thGameAMovingSprite\bin\x86\Debug\Content\Images\image1.xnb
+C:\cloud\cloud\Games\My5thGameAMovingSprite\My5thGameAMovingSprite\My5thGameAMovingSprite\bin\x86\Debug\My5thGameAMovingSprite.exe
+C:\cloud\cloud\Games\My5thGameAMovingSprite\My5thGameAMovingSprite\My5thGameAMovingSprite\bin\x86\Debug\My5thGameAMovingSprite.pdb
+C:\cloud\cloud\Games\My5thGameAMovingSprite\My5thGameAMovingSprite\My5thGameAMovingSprite\obj\x86\Debug\My5thGameAMovingSprite.exe
+C:\cloud\cloud\Games\My5thGameAMovingSprite\My5thGameAMovingSprite\My5thGameAMovingSprite\obj\x86\Debug\My5thGameAMovingSprite.pdb
+C:\cloud\cloud\Games\My5thGameAMovingSprite\My5thGameAMovingSprite\My5thGameAMovingSprite\bin\x86\Debug\Content\Images\Background.xnb

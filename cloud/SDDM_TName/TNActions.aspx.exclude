@@ -1,0 +1,97 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="TNActions.aspx.cs" Inherits="TNActions" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" Runat="Server">
+    <style type="text/css">
+    .style1
+    {
+        height: 26px;
+    }
+</style>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" Runat="Server">
+
+<table style="border:1px solid black;" align="center">
+
+<tr><td class="ModuleSectionFont" colspan="4">
+    <asp:Label ID="Label1" runat="server" Text="Action Information"></asp:Label>
+    </td></tr>
+    <tr><td>Type of Action</td><td></td></tr>
+    <tr> <td><asp:TextBox  runat="server"  ID="txtAction" Enabled="false"></asp:TextBox></td></tr>
+<tr><td>Date Filed</td><td>Effective Date</td><td>Cancellation Date</td><td>
+    Amendment Date</td></tr>
+<tr><td><asp:TextBox  runat="server"  ID="txtDateFiled"></asp:TextBox></td><td>
+    <asp:TextBox  runat="server"  ID="txtEffectiveDate"></asp:TextBox></td><td>
+        <asp:TextBox  runat="server"  ID="txtCancellationDate"></asp:TextBox></td><td>
+        <asp:TextBox  runat="server"  ID="txtAmendmentDate"></asp:TextBox></td></tr>
+<tr><td>Ownership Change</td><td></td><td></td><td>&nbsp;</td></tr>
+<tr><td>
+    <asp:DropDownList ID="ddlTNOwnershipChange" runat="server">
+        <asp:ListItem Selected="True">Select</asp:ListItem>
+        <asp:ListItem>Yes</asp:ListItem>
+        <asp:ListItem>No</asp:ListItem>
+    </asp:DropDownList>
+    </td><td></td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td>
+    Old Owner Name</td><td></td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td>
+    <asp:TextBox  runat="server"  ID="txtOldOwnerName" Width="200px"></asp:TextBox>
+    </td><td colspan="2"></td><td>&nbsp;</td></tr>
+
+        <tr><td>
+    New Owner Name</td><td></td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td>
+    <asp:TextBox  runat="server"  ID="txtNewOwnerName" 
+        Width="200px"></asp:TextBox>
+    </td><td colspan="2">
+        </td><td>&nbsp;</td></tr>
+
+<tr><td>Address Change</td><td></td><td></td><td>&nbsp;</td></tr>
+<tr><td>
+    <asp:DropDownList ID="ddlTNAddressChange" runat="server">
+        <asp:ListItem Selected="True">Select</asp:ListItem>
+        <asp:ListItem>Yes</asp:ListItem>
+        <asp:ListItem>No</asp:ListItem>
+        </asp:DropDownList>
+    </td><td></td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td>
+    Old Address</td><td></td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td>
+    <asp:TextBox  runat="server"  ID="txtOldAddress" Width="200px"></asp:TextBox>
+    </td><td colspan="2">
+       </td><td>&nbsp;</td></tr>
+
+        <tr><td>
+    New Address</td><td></td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td>
+     <asp:TextBox  runat="server"  ID="txtNewAddress" 
+        Width="200px"></asp:TextBox>
+    </td><td colspan="2">
+        </td></tr>
+<tr><td class="style1"></td><td class="style1">
+        &nbsp;</td><td class="style1">
+    </td><td class="style1">
+        </td></tr>
+<tr><td colspan="4">
+    <asp:Label ID="lblInformation" runat="server" ForeColor="Red"></asp:Label>
+    </td></tr>
+
+<tr><td>
+    <asp:Button ID="btnAddAction" runat="server" Text="Add Action" 
+            onclick="btnAddAction_Click" />
+
+            <asp:Button ID="btnUpdateAction" runat="server" Text="Update Action" 
+            onclick="btnUpdateAction_Click" enabled="false"/>
+    </td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+
+<tr><td>View Tradename History</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+
+<tr><td colspan="4">
+    <asp:GridView ID="grvHistory" runat="server">
+    </asp:GridView>
+    </td></tr>
+
+</table>
+</asp:Content>
+
+
+

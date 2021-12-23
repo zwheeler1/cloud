@@ -1,0 +1,68 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+
+
+</head>
+<body>
+    
+    <form id="Form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+    <div class="page">
+        <div class="header">
+             <div class="title">
+                            <h1>SDDM Technology</h1>
+                            <h2>Tradename Issuance and Tracking System</h2>
+                            <h4>We Listen To Our Customers: On Time Delivery and On Budget</h4>
+                            <h5>Small, Agile, and Innovative Company</h5>
+	                      </div>
+            <div class="loginDisplay">
+                <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
+                    <AnonymousTemplate>
+                        [ <a href="~/Account/Login.aspx" ID="HeadLoginStatus" runat="server">Log In</a> ]
+                    </AnonymousTemplate>
+                    <LoggedInTemplate>
+                        Welcome <span class="bold"><asp:LoginName ID="HeadLoginName" runat="server" /></span>!
+                        [ <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Log Out" LogoutPageUrl="~/"/> ]
+                    </LoggedInTemplate>
+                </asp:LoginView>
+            </div>
+            <div  class="clear hideSkiplink">
+                <asp:Menu ID="NavigationMenu" Orientation="Horizontal" DynamicHorizontalOffset="2" 
+                runat="server"  DataSourceID="SiteMapDataSource1"
+                CssClass="menu" EnableViewState="false" 
+                StaticSubMenuIndent="10px" 
+                staticdisplaylevels="2"
+                MaximumDynamicDisplayLevels="4"              
+                IncludeStyleBlock="false" >
+   
+                </asp:Menu>
+            </div>
+        </div>
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="footer" style="color:white">
+        <div> 564 Wilson Bridge Dr #C1, Oxon Hill Md, 20745</div>
+        <div>202.351.9027 , Fax: 202.318.8746</div>
+       <div>sales@sddmtech.com</div>
+       <div class="Copyright">Copyright &copy; 2005-2014. All Rights Reserved.</div>
+    </div>
+
+    
+    <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+    </form>
+</body>
+</html>
+
+

@@ -1,0 +1,9 @@
+C:\cloud\cloud\Games\MovingWizard\MovingWizard\MovingWizard\bin\x86\Debug\MovingWizard.exe
+C:\cloud\cloud\Games\MovingWizard\MovingWizard\MovingWizard\bin\x86\Debug\MovingWizard.pdb
+C:\cloud\cloud\Games\MovingWizard\MovingWizard\MovingWizard\obj\x86\Debug\MovingWizard.csprojResolveAssemblyReference.cache
+C:\cloud\cloud\Games\MovingWizard\MovingWizard\MovingWizard\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\cloud\cloud\Games\MovingWizard\MovingWizard\MovingWizard\obj\x86\Debug\MovingWizard.exe
+C:\cloud\cloud\Games\MovingWizard\MovingWizard\MovingWizard\obj\x86\Debug\MovingWizard.pdb
+C:\cloud\cloud\Games\MovingWizard\MovingWizard\MovingWizard\bin\x86\Debug\Content\Images\SquareGuy.xnb
+C:\cloud\cloud\Games\MovingWizard\MovingWizard\MovingWizard\bin\x86\Debug\Content\Images\WizardSquare.xnb
+C:\cloud\cloud\Games\MovingWizard\MovingWizard\MovingWizard\bin\x86\Debug\Content\Arial.xnb

@@ -1,0 +1,97 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+public partial class TNActions : System.Web.UI.Page
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        getHistory();
+    }
+    protected void btnAddAction_Click(object sender, EventArgs e)
+    {
+        clsAction oAction = new clsAction();
+        clsFees oFees = new clsFees();
+        oAction.ActionType = txtAction.Text;
+        oAction.IsCurrent = "Y";
+        // Begin the switch.
+        switch (oAction.ActionType)
+        {
+            case "New":
+                 oAction.ActionDate = txtDateFiled.Text;
+                 oFees.Fee = 150;
+                 oFees.FeeDescription = "New";
+                 break;
+            case "Renewal":
+                oAction.ActionDate = txtDateFiled.Text;
+                oFees.Fee = 150;
+                oFees.FeeDescription = "Renewal";
+                break;
+            case "Cancellation":
+                oAction.ActionDate = txtCancellationDate.Text;
+                oFees.Fee = 75;
+                oFees.FeeDescription = "Cancellation";
+                break;
+            case "Amendment":
+                oAction.ActionDate = txtAmendmentDate.Text;
+                oFees.Fee = 75;
+                oFees.FeeDescription = "Amendment";
+                break;
+            case "Duplicate Certificate":
+                oAction.ActionDate = txtDateFiled.Text;
+                oFees.Fee = 50;
+                oFees.FeeDescription = "Duplicate Certificate";
+                break;
+            case "Certificate of Fact":
+                oAction.ActionDate = txtDateFiled.Text;
+                oFees.Fee = 50;
+                oFees.FeeDescription = "Certificate of Fact";
+                break;
+            case "Deficeny Notice":
+                oAction.ActionDate = txtDateFiled.Text;
+                oFees.Fee = 50;
+                oFees.FeeDescription = "Deficeny Notice";
+                break;
+            case "Ownership Change":
+                oAction.ActionDate = txtEffectiveDate.Text;
+                oAction.OldOwnerName = txtOldOwnerName.Text;
+                oAction.NewOwnerName = txtNewOwnerName.Text;
+                oFees.Fee = 75;
+                oFees.FeeDescription = "Ownership Change";
+                break;
+            default:
+                break;
+        }
+
+        if (oAction.AddTradeNameAction(oAction))
+        {
+            oFees.AddFee(oFees);
+            getHistory();
+            lblInformation.Text = "Action Record Added Successfully";
+        }
+        else
+        {
+            lblInformation.Text = "Record Not Added Successfully";
+        }
+                                                     
+    }
+
+    public void getHistory()
+    {
+        clsDataAccess oData = new clsDataAccess();
+        ////clsMain.AppNumber = 7;
+        string strSql;
+        strSql = "select fk_AppNumber as 'App Number',	tag_NewOwnerName as 'New Owner',	tag_OldOwnerName as 'Previous Owner'	,cat_Action as 'Action',	date_ActionDate as 'Action Date',	ind_CurrentRecord as 'Current' from tbl_Action where fk_appnumber = ";
+        grvHistory.DataSource = oData.getDataSet(strSql, clsMain.AppNumber);
+        grvHistory.DataBind();
+    }
+
+    protected void btnUpdateAction_Click(object sender, EventArgs e)
+    {
+
+    }
+}
+

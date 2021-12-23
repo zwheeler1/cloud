@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  
+    <siteMapNode url="~/Default.aspx" title="Home"  description="">
+
+      <siteMapNode url="~/Main.aspx" title="Main"  description="Use this to enter basic data"/>
+      <siteMapNode url="~/ContactInfo.aspx" title="Contact "  description=" Use this to add contact, applicant,billing,etc...."/>
+      <siteMapNode url="~/TnFees.aspx" title="Invoice/Fees"  description=" Use this to print invoice and view fees"/>
+      <siteMapNode url="~/Search.aspx" title="Search"  description=" Use this to search for a record"/>
+      <siteMapNode url="~/Review.aspx" title="Staff Review"  description=" Use this to complete staffs review of the application"/>
+      <siteMapNode url="~/PrintCertificate.aspx" title="Print Certificate"  description=" Use this when you are ready to print the Certificate"/>
+
+
+      <siteMapNode title="SDDM Technology" description="This section is used to log an issue or request a functionality">
+        <siteMapNode title="Help"  description="Use this screen to generate help request"  url="http://helpdesk.sddmapps.com/default.aspx"/>
+        <siteMapNode title="SDDM Technology Main Site"  description="Use this to go to our Main Site SDDM Technology"  url="http://sddmtech.com"/>
+      </siteMapNode>
+      
+    </siteMapNode>
+  
+</siteMap>

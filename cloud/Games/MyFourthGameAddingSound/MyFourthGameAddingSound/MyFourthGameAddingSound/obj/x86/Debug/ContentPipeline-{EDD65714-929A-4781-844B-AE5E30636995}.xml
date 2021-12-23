@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Sounds\cow22.wav</Source>
+      <Name>Sounds\cow22</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\cloud\cloud\Games\MyFourthGameAddingSound\MyFourthGameAddingSound\MyFourthGameAddingSound\bin\x86\Debug\Content\Sounds\cow22.xnb</Output>
+      <Time>2013-10-15T22:36:12.4842044-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\dog_bark4.wav</Source>
+      <Name>Sounds\dog_bark4</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\cloud\cloud\Games\MyFourthGameAddingSound\MyFourthGameAddingSound\MyFourthGameAddingSound\bin\x86\Debug\Content\Sounds\dog_bark4.xnb</Output>
+      <Time>2013-10-15T22:36:12.4902397-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\pig_squeal2.wav</Source>
+      <Name>Sounds\pig_squeal2</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\cloud\cloud\Games\MyFourthGameAddingSound\MyFourthGameAddingSound\MyFourthGameAddingSound\bin\x86\Debug\Content\Sounds\pig_squeal2.xnb</Output>
+      <Time>2013-10-15T22:36:12.6562599-07:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{EDD65714-929A-4781-844B-AE5E30636995}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\cloud\cloud\Games\MyFourthGameAddingSound\MyFourthGameAddingSound\MyFourthGameAddingSoundContent\</RootDirectory>
+      <LoggerRootDirectory>C:\cloud\cloud\Games\MyFourthGameAddingSound\MyFourthGameAddingSound\MyFourthGameAddingSound\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\cloud\cloud\Games\MyFourthGameAddingSound\MyFourthGameAddingSound\MyFourthGameAddingSound\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\cloud\cloud\Games\MyFourthGameAddingSound\MyFourthGameAddingSound\MyFourthGameAddingSound\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2012-09-06T14:52:54-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2012-09-06T14:52:54-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2012-09-06T14:52:54-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2012-09-06T14:52:54-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2012-09-06T14:52:54-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2012-09-06T14:52:54-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2013-09-29T23:42:12.8874257-07:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

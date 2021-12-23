@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Sections>
+  <WaveBank Name="Wave Bank">Wave Bank
+{
+    Name = Wave Bank;
+    Xbox File = Xbox\Wave Bank.xwb;
+    Windows File = Win\Wave Bank.xwb;
+    Xbox Bank Path Edited = 0;
+    Windows Bank Path Edited = 0;
+    Seek Tables = 1;
+    Compression Preset Name = &lt;none&gt;;
+    Xbox Bank Last Modified Low = 0;
+    Xbox Bank Last Modified High = 0;
+    PC Bank Last Modified Low = 960868413;
+    PC Bank Last Modified High = 30329399;
+    Bank Last Revised Low = 960858236;
+    Bank Last Revised High = 30329399;
+
+    Wave
+    {
+        Name = cow22;
+        File = cow22.wav;
+        Build Settings Last Modified Low = 3261974774;
+        Build Settings Last Modified High = 30329397;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 11025;
+            Bits Per Sample = 0;
+            Play Region Offset = 44;
+            Play Region Length = 20578;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2682310716;
+            Last Modified High = 30329393;
+        }
+    }
+
+    Wave
+    {
+        Name = dog_bark4;
+        File = dog_bark4.wav;
+        Build Settings Last Modified Low = 3276009480;
+        Build Settings Last Modified High = 30329397;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 11025;
+            Bits Per Sample = 0;
+            Play Region Offset = 44;
+            Play Region Length = 25280;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2682371069;
+            Last Modified High = 30329393;
+        }
+    }
+
+    Wave
+    {
+        Name = pig_squeal2;
+        File = pig_squeal2.wav;
+        Build Settings Last Modified Low = 3443538150;
+        Build Settings Last Modified High = 30329397;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 11025;
+            Bits Per Sample = 0;
+            Play Region Offset = 44;
+            Play Region Length = 35685;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2684031271;
+            Last Modified High = 30329393;
+        }
+    }
+}
+
+</WaveBank>
+</Sections>
